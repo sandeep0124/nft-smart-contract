@@ -8,3 +8,10 @@ live:
         explorer: https://api-goerli.etherscan.io/api
         multicall2: "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696"
         provider: alchemy
+      - name: Rinkeby (Alchemy)
+        chainid: 4
+        id: rinkeby-alchemy
+        host: https://eth-rinkeby.alchemyapi.io/v2/$WEB3_ALCHEMY_PROJECT_ID
+        explorer: https://api-rinkeby.etherscan.io/
+        multicall2: "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696"
+        provider: alchemy
